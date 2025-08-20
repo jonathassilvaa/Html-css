@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead >tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead,tfoot{
+            background-color: gray;
+            color: white;
+        }
+        tbody>tr:nth-child(even){
+            background-color: lightgray ;
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+    ANATOMIA PARA TABELAS GRANDES
+    TABLE
+        THEAD
+            TR,TD,TH
+        TBODY
+            TR,TD,TH
+        TFOOT
+            TR,TD,TH
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <caption>População das unidades federativas</caption>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de Habitantes</th>
+            <td class="num"><strong>000 000 000</strong></td>
+            
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum possimus quia modi quaerat officiis tempora minus assumenda, suscipit praesentium. Quos ipsam corporis enim architecto minus esse ex eligendi repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor consectetur facilis explicabo eius earum? Quis voluptates cumque temporibus neque, nihil quod explicabo nisi dignissimos enim, dolorum distinctio laudantium dicta ea. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quae deleniti quia reiciendis quibusdam libero laborum hic animi, fugit a id ducimus quis? Maxime fugit hic debitis! Hic, rerum! Eveniet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum possimus quia modi quaerat officiis tempora minus assumenda, suscipit praesentium. Quos ipsam corporis enim architecto minus esse ex eligendi repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor consectetur facilis explicabo eius earum? Quis voluptates cumque temporibus neque, nihil quod explicabo nisi dignissimos enim, dolorum distinctio laudantium dicta ea. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quae deleniti quia reiciendis quibusdam libero laborum hic animi, fugit a id ducimus quis? Maxime fugit hic debitis! Hic, rerum! Eveniet.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum possimus quia modi quaerat officiis tempora minus assumenda, suscipit praesentium. Quos ipsam corporis enim architecto minus esse ex eligendi repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor consectetur facilis explicabo eius earum? Quis voluptates cumque temporibus neque, nihil quod explicabo nisi dignissimos enim, dolorum distinctio laudantium dicta ea. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quae deleniti quia reiciendis quibusdam libero laborum hic animi, fugit a id ducimus quis? Maxime fugit hic debitis! Hic, rerum! Eveniet.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum possimus quia modi quaerat officiis tempora minus assumenda, suscipit praesentium. Quos ipsam corporis enim architecto minus esse ex eligendi repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor consectetur facilis explicabo eius earum? Quis voluptates cumque temporibus neque, nihil quod explicabo nisi dignissimos enim, dolorum distinctio laudantium dicta ea. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quae deleniti quia reiciendis quibusdam libero laborum hic animi, fugit a id ducimus quis? Maxime fugit hic debitis! Hic, rerum! Eveniet.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum possimus quia modi quaerat officiis tempora minus assumenda, suscipit praesentium. Quos ipsam corporis enim architecto minus esse ex eligendi repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor consectetur facilis explicabo eius earum? Quis voluptates cumque temporibus neque, nihil quod explicabo nisi dignissimos enim, dolorum distinctio laudantium dicta ea. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quae deleniti quia reiciendis quibusdam libero laborum hic animi, fugit a id ducimus quis? Maxime fugit hic debitis! Hic, rerum! Eveniet.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum possimus quia modi quaerat officiis tempora minus assumenda, suscipit praesentium. Quos ipsam corporis enim architecto minus esse ex eligendi repudiandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor consectetur facilis explicabo eius earum? Quis voluptates cumque temporibus neque, nihil quod explicabo nisi dignissimos enim, dolorum distinctio laudantium dicta ea. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quae deleniti quia reiciendis quibusdam libero laborum hic animi, fugit a id ducimus quis? Maxime fugit hic debitis! Hic, rerum! Eveniet.</p>
+    
+</body>
+</html>
