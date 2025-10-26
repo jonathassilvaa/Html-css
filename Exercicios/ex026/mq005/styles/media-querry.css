@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* 
+Breakpoints comuns para media queries:
+
+Celular pequeno: até 480px
+Exemplo: @media (max-width: 480px)
+
+Celular médio/grande: até 768px
+Exemplo: @media (max-width: 768px)
+
+Tablet: até 1024px
+Exemplo: @media (max-width: 1024px)
+
+Desktop pequeno: até 1280px
+Exemplo: @media (max-width: 1280px)
+
+Desktop grande: acima de 1440px
+Exemplo: @media (min-width: 1440px)
+*/
+
+@media screen and (min-width: 768px){
+    span#burguer{
+        display: none ;
+    }
+    nav{
+        display: block;
+    }
+    nav > ul > li{
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+}
+
