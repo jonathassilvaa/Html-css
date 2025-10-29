@@ -1,0 +1,17 @@
+div.container{
+    display: flex;
+    height: 100px;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+}
+
+div.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    
+}

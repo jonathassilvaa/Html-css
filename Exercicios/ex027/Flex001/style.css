@@ -1,0 +1,12 @@
+div.container{
+    display: flex;
+    background-color: lightsalmon;
+}
+
+div.item{
+    flex: auto;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
