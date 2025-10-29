@@ -1,0 +1,19 @@
+div.container{
+    
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: wrap;
+    align-items: flex-start;
+    height: 400px;
+    
+    
+}
+
+div.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+
+}

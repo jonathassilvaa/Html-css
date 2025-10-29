@@ -1,0 +1,16 @@
+div.container{
+    display: flex;
+    background-color: lightsalmon;
+    flex-flow: row wrap;
+    height: 400px;
+    
+    align-content:stretchf;
+}
+
+div.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
+}
